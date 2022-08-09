@@ -1,0 +1,75 @@
+{
+    "name": "HRDPS LAM NAT CONT ETAL",
+    "category": {
+      "id": 4
+    },
+    "level": 15,
+    "crs": "EPSG:4326",
+    "maxLayers": 10,
+    "contact_person": "Patrick Curran <patrick.curran@ec.gc.ca>, Sebastien Fortier <sebastien.fortier@ec.gc.ca>",
+    "name_alternate": "HRDPS ETAL",
+    "rating": 4,
+    "description_short": "High Resolution Deterministic Prediction System HRDPS LAM on Eta levels",
+    "description_long": "The High Resolution Deterministic Prediction System (HRDPS) carries out physics calculations to arrive at deterministic predictions of atmospheric elements from the current day out to 48 hours into the future. Atmospheric elements include temperature, precipitation, cloud cover, wind speed and direction, humidity and others. This product contains raw numerical results of these calculations. Geographical coverage of the system is most of Canada. Data is available over specific areas in the MSC Datamart and the whole coverage is available in the MSC GeoMet web services. Data is available at a horizontal resolution of about 2.5 km up to 31 vertical levels. Predictions are performed up to four times a day.",
+    "description_links": [
+      "https://donnees-data.intranet.ec.gc.ca/geonetwork/metadata/eng/5b401fa0-6c29-57f0-b3d5-749f301d829d"
+    ],
+    "data_source_name": "lam grib2 hrdps national continental",
+    "data_source_attribution": "CMC [Year] High Resolution Deterministic Prediction System",
+    "data_source_description": "CMC High Resolution Deterministic Prediction System",
+    "data_source_links": [
+      "https://weather.gc.ca/grib/grib2_HRDPS_HR_e.html"
+    ],
+    "update_interval_max": "6 hour",
+    "update_interval_description": "Uploads are run daily. However, note the temporal resolution.",
+    "lag_horizon": "6 days",
+    "lag_horizon_description": "Data is available within 24 hours.",
+    "temporal_resolution": "1 hours",
+    "temporal_resolution_description": "string",
+    "spatial_resolution_of_raw_data": "2500m",
+    "interpolation": "near",
+    "dimensions_description": "The sole dimension is called \"horizon\" and refers to the forecast horizon in hours. (Only integer horizons are allowed.)",
+    "permanence": true,
+    "permanence_description": "Data with timestamp into the future will be update, but remain constant past current timestamp (except for error corrrection).",
+    "known_issues": "Updates are irregular.",
+    "responsible_organization": "CMC",
+    "description_internal": "This data set is not for public dissemination.",
+    "description_internal_links": [
+      "https://wiki.cmc.ec.gc.ca/wiki/HRDPS"
+    ],
+    "data_storage_mid_term": "pairsdata.pok.ibm.com:/data/datasets/sentinel2",
+    "data_storage_long_term": "Tape",
+    "elt_scripts_links": [
+      "https://some-place-where-your-code-is-stored.com"
+    ],
+    "license_information": "Approved",
+    "properties": {
+      "Sector": [
+        "Weather/climate"
+      ],
+      "Application": [
+        "Forecasting"
+      ],
+      "Domain": [
+        "Atmosphere"
+      ],
+      "Type": [
+        "Data product"
+      ],
+      "Source": [
+        "Forecast"
+      ]
+    },
+    "spatial_coverage": {
+      "Country": [
+        "Canada"
+      ]
+    },
+    "latitude_min": 27,
+    "longitude_min": -153,
+    "latitude_max": 70,
+    "longitude_max": -43,
+    "temporal_min": "2017-01-01T00:00:00.000Z",
+    "temporal_max": "2021-12-31T00:00:00.000Z",
+    "offering_status": ""
+  }

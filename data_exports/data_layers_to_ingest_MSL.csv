@@ -1,0 +1,2 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Pressure reduced to MSL,PRMSL,Pressure reduced to MSL,fl,Pa,ACTIVE,15,near,1

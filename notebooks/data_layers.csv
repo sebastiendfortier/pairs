@@ -1,0 +1,81 @@
+name,description,unit,type_of_level,type_of_level_description,level,level_units,id
+4LFTX,Best (4-layer) lifted index ,C,ISBL,Isobaric surface,50000,Pa,1
+ABSV,Absolute vorticity ,1/s,ISBL,Isobaric surface,"100000,85000,70000,50000,25000",Pa,2
+ACPCP,Convective precipitation ,kg/(m^2),SFC,Ground or water surface,0,,3
+ALBDO,Albedo ,%,SFC,Ground or water surface,0,,4
+APCP06,06 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,5
+APCP12,12 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,6
+APCP18,18 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,7
+APCP24,24 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,8
+APCP30,30 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,9
+APCP36,36 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,10
+APCP42,42 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,11
+APCP48,48 hr Total precipitation ,kg/(m^2),SFC,Ground or water surface,0,,12
+CAPE,Convective available potential energy ,J/kg,EtaL,Eta* level,10000,,13
+CWAT,Cloud water ,kg/(m^2),EATM,Entire Atmosphere,0,,14
+DEN,Density ,kg/(m^3),HTGL,Specified height level above ground,80,m,15
+DEPR,Dew point depression ,C,EtaL,Eta* level,"9950,9850",,16
+DEPR,Dew point depression ,C,HTGL,Specified height level above ground,"2,80",m,17
+DEPR,Dew point depression ,C,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,18
+DLWRF,Downward long-wave radiation flux ,W/(m^2),SFC,Ground or water surface,0,,19
+DPT,Dew point temperature ,C,HTGL,Specified height level above ground,"2,40,120",m,20
+DSWRF,Downward short-wave radiation flux ,W/(m^2),NTAT,Nominal top of atmosphere,0,,21
+DSWRF,Downward short-wave radiation flux ,W/(m^2),SFC,Ground or water surface,0,,22
+FPRATE,Freezing rain precipitation rate ,kg/(m^2*s),SFC,Ground or water surface,0,,23
+GUST,Wind speed (gust) ,m/s,HTGL,Specified height level above ground,10,m,24
+HGT,Geopotential height ,gpm,EtaL,Eta* level,10000,,25
+HGT,Geopotential height ,gpm,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,26
+HGT,Geopotential height ,gpm,SFC,Ground or water surface,0,,27
+HLCY,Storm relative helicity ,J/kg,EtaL,Eta* level,10000,,28
+HPBL,Planetary boundary layer height ,m,SFC,Ground or water surface,0,,29
+ICEC,Ice cover ,Proportion,SFC,Ground or water surface,0,,30
+IPRATE,Ice pellets precipitation rate ,kg/(m^2*s),SFC,Ground or water surface,0,,31
+LAND,Land cover (1=land; 2=sea) ,Proportion,SFC,Ground or water surface,0,,32
+LHTFL,Latent heat net flux ,W/(m^2),SFC,Ground or water surface,0,,33
+NLWRS,Net long wave radiation flux (surface) ,W/(m^2),SFC,Ground or water surface,0,,34
+NSWRS,Net short-wave radiation flux (surface) ,W/(m^2),SFC,Ground or water surface,0,,35
+PRATE,Precipitation rate ,kg/(m^2 s),SFC,Ground or water surface,0,,36
+PRES,Pressure ,Pa,SFC,Ground or water surface,0,,37
+PRMSL,Pressure reduced to MSL ,Pa,MSL,Mean sea level,0,,38
+PTYPE,Precipitation type ,1=Rain; 2=Thunderstorm; 3=Freezing Rain; 4=Mixed/ice; 5=snow; 255=missing,SFC,Ground or water surface,0,,39
+RH,Relative humidity ,%,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,40
+RH,Relative humidity ,%,EtaL,Eta* level,"9950,9850",,41
+RH,Relative humidity ,%,HTGL,Specified height level above ground,2,m,42
+RPRATE,Rain precipitation rate ,kg/(m^2*s),SFC,Ground or water surface,0,,43
+SDEN,Snow density ,kg/m^3,SFC,Ground or water surface,0,,44
+SDWE,Snow depth water equivalent ,kg/m^2,SFC,Ground or water surface,0,,45
+SFCWRO,Surface Water Runoff ,kg/(m^2),SFC,Ground or water surface,0,,46
+SHTFL,Sensible heat net flux ,W/(m^2),SFC,Ground or water surface,0,,47
+SHWINX,Showalter Index ,C,ISBL,Isobaric surface,50000,Pa,48
+SKINT,Skin temperature ,C,SFC,Ground or water surface,0,,49
+SNOD,Snow depth ,m,SFC,Ground or water surface,0,,50
+SOILM,Soil moisture content ,kg/(m^2),DBLL,Depth below land surface,"0@0.1,0@0.01",m,51
+SOILVIC,Soil Volumetric Ice Content (Water Equivalent)  ,m^3/m^3,SFC,Ground or water surface,0,,52
+SPFH,Specific humidity ,kg/kg,EtaL,Eta* level,"9950,9850",,53
+SPFH,Specific humidity ,kg/kg,HTGL,Specified height level above ground,2,m,54
+SPFH,Specific humidity ,kg/kg,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,55
+SPFH,Specific humidity ,kg/kg,SFC,Ground or water surface,0,,56
+SPRATE,Snow precipitation rate ,kg/(m^2*s),SFC,Ground or water surface,0,,57
+TCDC,Total cloud cover ,%,SFC,Ground or water surface,0,,58
+THICK,Thickness ,m,ISBL,Isobaric surface,100000@50000,Pa,59
+TMP,Temperature ,C,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,60
+TMP,Temperature ,C,HTGL,Specified height level above ground,"2,80",m,61
+TMP,Temperature ,C,EtaL,Eta* level,"9950,9850",,62
+TSOIL,Soil temperature ,C,DBLL,Depth below land surface,0@0.1,m,63
+TSOIL,Soil temperature ,C,SFC,Ground or water surface,0,,64
+UGRD,u-component of wind ,m/s,EtaL,Eta* level,"9950,9850",,65
+UGRD,u-component of wind ,m/s,HTGL,Specified height level above ground,"10,80",m,66
+UGRD,u-component of wind ,m/s,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,67
+ULWRF,Upward long-wave radiation flux ,W/(m^2),NTAT,Nominal top of atmosphere,0,,68
+USWRF,Upward short-wave radiation flux ,W/(m^2),NTAT,Nominal top of atmosphere,0,,69
+VGRD,v-component of wind ,m/s,EtaL,Eta* level,"9950,9850",,70
+VGRD,v-component of wind ,m/s,HTGL,Specified height level above ground,"10,80",m,71
+VGRD,v-component of wind ,m/s,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,72
+VVEL,Vertical velocity (pressure) ,Pa/s,ISBL,Isobaric surface,"100000,85000,70000,50000,25000",Pa,73
+WDIR,Wind direction (from which blowing) ,deg true,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,74
+WDIR,Wind direction (from which blowing) ,deg true,EtaL,Eta* level,"9950,9850",,75
+WDIR,Wind direction (from which blowing) ,deg true,HTGL,Specified height level above ground,"10,80",m,76
+WIND,Wind speed ,m/s,HTGL,Specified height level above ground,"10,80",m,77
+WIND,Wind speed ,m/s,ISBL,Isobaric surface,"101500,100000,98500,97000,95000,92500,90000,87500,85000,80000,75000,70000,65000,60000,55000,50000,45000,40000,35000,30000,27500,25000,22500,20000,17500,15000,10000,5000",Pa,78
+WIND,Wind speed ,m/s,EtaL,Eta* level,"9950,9850",,79
+WTMP,Water temperature ,C,SFC,Ground or water surface,0,,80

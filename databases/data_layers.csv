@@ -1,0 +1,60 @@
+name,description,unit,id
+4LFTX,Best (4-layer) lifted index [C],[C],1
+ABSV,Absolute vorticity [1/s],[1/s],2
+ACPCP,Convective precipitation [kg/(m^2)],[kg/(m^2)],3
+ALBDO,Albedo [%],[%],4
+APCP06,06 hr Total precipitation [kg/(m^2)],[kg/(m^2)],5
+APCP12,12 hr Total precipitation [kg/(m^2)],[kg/(m^2)],6
+APCP18,18 hr Total precipitation [kg/(m^2)],[kg/(m^2)],7
+APCP24,24 hr Total precipitation [kg/(m^2)],[kg/(m^2)],8
+APCP30,30 hr Total precipitation [kg/(m^2)],[kg/(m^2)],9
+APCP36,36 hr Total precipitation [kg/(m^2)],[kg/(m^2)],10
+APCP42,42 hr Total precipitation [kg/(m^2)],[kg/(m^2)],11
+APCP48,48 hr Total precipitation [kg/(m^2)],[kg/(m^2)],12
+CAPE,Convective available potential energy [J/kg],[J/kg],13
+CWAT,Cloud water [kg/(m^2)],[kg/(m^2)],14
+DEN,Density [kg/(m^3)],[kg/(m^3)],15
+DEPR,Dew point depression [C],[C],16
+DLWRF,Downward long-wave radiation flux [W/(m^2)],[W/(m^2)],17
+DPT,Dew point temperature [C],[C],18
+DSWRF,Downward short-wave radiation flux [W/(m^2)],[W/(m^2)],19
+FPRATE,Freezing rain precipitation rate [kg/(m^2*s)],[kg/(m^2*s)],20
+GUST,Wind speed (gust) [m/s],[m/s],21
+HGT,Geopotential height [gpm],[gpm],22
+HLCY,Storm relative helicity [J/kg],[J/kg],23
+HPBL,Planetary boundary layer height [m],[m],24
+ICEC,Ice cover [Proportion],[Proportion],25
+IPRATE,Ice pellets precipitation rate [kg/(m^2*s)],[kg/(m^2*s)],26
+LAND,Land cover (1=land; 2=sea) [Proportion],[Proportion],27
+LHTFL,Latent heat net flux [W/(m^2)],[W/(m^2)],28
+NLWRS,Net long wave radiation flux (surface) [W/(m^2)],[W/(m^2)],29
+NSWRS,Net short-wave radiation flux (surface) [W/(m^2)],[W/(m^2)],30
+PRATE,Precipitation rate [kg/(m^2 s)],[kg/(m^2 s)],31
+PRES,Pressure [Pa],[Pa],32
+PRMSL,Pressure reduced to MSL [Pa],[Pa],33
+PTYPE,Precipitation type [1=Rain; 2=Thunderstorm; 3=Freezing Rain; 4=Mixed/ice; 5=snow; 255=missing],[1=Rain; 2=Thunderstorm; 3=Freezing Rain; 4=Mixed/ice; 5=snow; 255=missing],34
+RH,Relative humidity [%],[%],35
+RPRATE,Rain precipitation rate [kg/(m^2*s)],[kg/(m^2*s)],36
+SDEN,Snow density [kg/m^3],[kg/m^3],37
+SDWE,Snow depth water equivalent [kg/m^2],[kg/m^2],38
+SFCWRO,Surface Water Runoff [kg/(m^2)],[kg/(m^2)],39
+SHTFL,Sensible heat net flux [W/(m^2)],[W/(m^2)],40
+SHWINX,Showalter Index [C],[C],41
+SKINT,Skin temperature [C],[C],42
+SNOD,Snow depth [m],[m],43
+SOILM,Soil moisture content [kg/(m^2)],[kg/(m^2)],44
+SOILVIC,Soil Volumetric Ice Content (Water Equivalent)  [m^3/m^3],[m^3/m^3],45
+SPFH,Specific humidity [kg/kg],[kg/kg],46
+SPRATE,Snow precipitation rate [kg/(m^2*s)],[kg/(m^2*s)],47
+TCDC,Total cloud cover [%],[%],48
+THICK,Thickness [m],[m],49
+TMP,Temperature [C],[C],50
+TSOIL,Soil temperature [C],[C],51
+UGRD,u-component of wind [m/s],[m/s],52
+ULWRF,Upward long-wave radiation flux [W/(m^2)],[W/(m^2)],53
+USWRF,Upward short-wave radiation flux [W/(m^2)],[W/(m^2)],54
+VGRD,v-component of wind [m/s],[m/s],55
+VVEL,Vertical velocity (pressure) [Pa/s],[Pa/s],56
+WDIR,Wind direction (from which blowing) [deg true],[deg true],57
+WIND,Wind speed [m/s],[m/s],58
+WTMP,Water temperature [C],[C],59

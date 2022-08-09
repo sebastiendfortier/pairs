@@ -1,0 +1,16 @@
+{
+	"layerType": "Raster", 
+	"layers": 
+    [
+        {
+            "name": "Pressure reduced to MSL",
+            "name_alternate": "PRMSL",
+            "description_short": "Pressure reduced to MSL",
+            "datatype": "fl",
+            "units": "Pa",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        }
+    ]
+}

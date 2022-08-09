@@ -1,0 +1,15 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Absolute vorticity,ABSV,Absolute vorticity,fl,1/s,ACTIVE,15,near,1
+Best (4-layer) lifted index,4LFTX,Best (4-layer) lifted index,fl,C,ACTIVE,15,near,2
+Dew point depression,DEPR,Dew point depression,fl,C,ACTIVE,15,near,3
+Geopotential height,HGT,Geopotential height,fl,gpm,ACTIVE,15,near,4
+Relative humidity,RH,Relative humidity,fl,%,ACTIVE,15,near,5
+Showalter Index,SHWINX,Showalter Index,fl,C,ACTIVE,15,near,6
+Specific humidity,SPFH,Specific humidity,fl,kg/kg,ACTIVE,15,near,7
+Temperature,TMP,Temperature,fl,C,ACTIVE,15,near,8
+Thickness,THICK,Thickness,fl,m,ACTIVE,15,near,9
+Vertical velocity (pressure),VVEL,Vertical velocity (pressure),fl,Pa/s,ACTIVE,15,near,10
+Wind direction (from which blowing),WDIR,Wind direction (from which blowing),fl,deg true,ACTIVE,15,near,11
+Wind speed,WIND,Wind speed,fl,m/s,ACTIVE,15,near,12
+u-component of wind,UGRD,u-component of wind,fl,m/s,ACTIVE,15,near,13
+v-component of wind,VGRD,v-component of wind,fl,m/s,ACTIVE,15,near,14

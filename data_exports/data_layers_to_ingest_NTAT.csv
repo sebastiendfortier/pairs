@@ -1,0 +1,4 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Downward short-wave radiation flux,DSWRF,Downward short-wave radiation flux,fl,W/(m^2),ACTIVE,15,near,1
+Upward long-wave radiation flux,ULWRF,Upward long-wave radiation flux,fl,W/(m^2),ACTIVE,15,near,2
+Upward short-wave radiation flux,USWRF,Upward short-wave radiation flux,fl,W/(m^2),ACTIVE,15,near,3

@@ -1,0 +1,20 @@
+[
+    {
+        "fullName": "Depth below land surface",
+        "shortName": "level range",
+        "type": "string",
+        "unit": "m"
+    },
+    {
+        "fullName": "forecast hour",
+        "shortName": "forecast hour",
+        "type": "string",
+        "unit": "h"
+    },
+    {
+        "fullName": "reference time",
+        "shortName": "reference time",
+        "type": "string",
+        "unit": ""
+    }
+]

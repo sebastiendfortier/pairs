@@ -1,0 +1,3 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Soil moisture content,SOILM,Soil moisture content,fl,kg/(m^2),ACTIVE,15,near,1
+Soil temperature,TSOIL,Soil temperature,fl,C,ACTIVE,15,near,2

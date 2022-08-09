@@ -1,0 +1,36 @@
+{
+	"layerType": "Raster", 
+	"layers": 
+    [
+        {
+            "name": "Downward short wave radiation flux",
+            "name_alternate": "DSWRF",
+            "description_short": "Downward short-wave radiation flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Upward long wave radiation flux",
+            "name_alternate": "ULWRF",
+            "description_short": "Upward long-wave radiation flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Upward short wave radiation flux",
+            "name_alternate": "USWRF",
+            "description_short": "Upward short-wave radiation flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        }
+    ]
+}

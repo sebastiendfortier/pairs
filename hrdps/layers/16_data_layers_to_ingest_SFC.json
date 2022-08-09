@@ -1,0 +1,376 @@
+{
+	"layerType": "Raster", 
+	"layers": 
+    [
+        {
+            "name": "Total precipitation 06 hr",
+            "name_alternate": "APCP06",
+            "description_short": "06 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total precipitation 12 hr",
+            "name_alternate": "APCP12",
+            "description_short": "12 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total precipitation 18 hr",
+            "name_alternate": "APCP18",
+            "description_short": "18 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total precipitation 24 hr",
+            "name_alternate": "APCP24",
+            "description_short": "24 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total precipitation 30 hr",
+            "name_alternate": "APCP30",
+            "description_short": "30 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total precipitation 36 hr",
+            "name_alternate": "APCP36",
+            "description_short": "36 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "42 hr Total precipitation",
+            "name_alternate": "APCP42",
+            "description_short": "42 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "48 hr Total precipitation",
+            "name_alternate": "APCP48",
+            "description_short": "48 hr Total precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Albedo",
+            "name_alternate": "ALBDO",
+            "description_short": "Albedo",
+            "datatype": "fl",
+            "units": "%",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Convective precipitation",
+            "name_alternate": "ACPCP",
+            "description_short": "Convective precipitation",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Downward long wave radiation flux",
+            "name_alternate": "DLWRF",
+            "description_short": "Downward long-wave radiation flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Downward short wave radiation flux",
+            "name_alternate": "DSWRF",
+            "description_short": "Downward short-wave radiation flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Freezing rain precipitation rate",
+            "name_alternate": "FPRATE",
+            "description_short": "Freezing rain precipitation rate",
+            "datatype": "fl",
+            "units": "kg/(m^2*s)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Geopotential height",
+            "name_alternate": "HGT",
+            "description_short": "Geopotential height",
+            "datatype": "fl",
+            "units": "gpm",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Ice cover",
+            "name_alternate": "ICEC",
+            "description_short": "Ice cover",
+            "datatype": "fl",
+            "units": "Proportion",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Ice pellets precipitation rate",
+            "name_alternate": "IPRATE",
+            "description_short": "Ice pellets precipitation rate",
+            "datatype": "fl",
+            "units": "kg/(m^2*s)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Land cover",
+            "name_alternate": "LAND",
+            "description_short": "Land cover (1=land; 2=sea)",
+            "datatype": "fl",
+            "units": "Proportion",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Latent heat net flux",
+            "name_alternate": "LHTFL",
+            "description_short": "Latent heat net flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Net long wave radiation flux surface",
+            "name_alternate": "NLWRS",
+            "description_short": "Net long wave radiation flux (surface)",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Net short wave radiation flux surface",
+            "name_alternate": "NSWRS",
+            "description_short": "Net short-wave radiation flux (surface)",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Planetary boundary layer height",
+            "name_alternate": "HPBL",
+            "description_short": "Planetary boundary layer height",
+            "datatype": "fl",
+            "units": "m",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Precipitation rate",
+            "name_alternate": "PRATE",
+            "description_short": "Precipitation rate",
+            "datatype": "fl",
+            "units": "kg/(m^2 s)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Precipitation type",
+            "name_alternate": "PTYPE",
+            "description_short": "Precipitation type",
+            "datatype": "fl",
+            "units": "1=Rain; 2=Thunderstorm; 3=Freezing Rain; 4=Mixed/ice; 5=snow; 255=missing",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Pressure",
+            "name_alternate": "PRES",
+            "description_short": "Pressure",
+            "datatype": "fl",
+            "units": "Pa",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Rain precipitation rate",
+            "name_alternate": "RPRATE",
+            "description_short": "Rain precipitation rate",
+            "datatype": "fl",
+            "units": "kg/(m^2*s)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Sensible heat net flux",
+            "name_alternate": "SHTFL",
+            "description_short": "Sensible heat net flux",
+            "datatype": "fl",
+            "units": "W/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Skin temperature",
+            "name_alternate": "SKINT",
+            "description_short": "Skin temperature",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Snow density",
+            "name_alternate": "SDEN",
+            "description_short": "Snow density",
+            "datatype": "fl",
+            "units": "kg/m^3",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Snow depth",
+            "name_alternate": "SNOD",
+            "description_short": "Snow depth",
+            "datatype": "fl",
+            "units": "m",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Snow depth water equivalent",
+            "name_alternate": "SDWE",
+            "description_short": "Snow depth water equivalent",
+            "datatype": "fl",
+            "units": "kg/m^2",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Snow precipitation rate",
+            "name_alternate": "SPRATE",
+            "description_short": "Snow precipitation rate",
+            "datatype": "fl",
+            "units": "kg/(m^2*s)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Soil Volumetric Ice Content Water Equivalent",
+            "name_alternate": "SOILVIC",
+            "description_short": "Soil Volumetric Ice Content (Water Equivalent)",
+            "datatype": "fl",
+            "units": "m^3/m^3",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Soil temperature",
+            "name_alternate": "TSOIL",
+            "description_short": "Soil temperature",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Specific humidity",
+            "name_alternate": "SPFH",
+            "description_short": "Specific humidity",
+            "datatype": "fl",
+            "units": "kg/kg",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Surface Water Runoff",
+            "name_alternate": "SFCWRO",
+            "description_short": "Surface Water Runoff",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Total cloud cover",
+            "name_alternate": "TCDC",
+            "description_short": "Total cloud cover",
+            "datatype": "fl",
+            "units": "%",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Water temperature",
+            "name_alternate": "WTMP",
+            "description_short": "Water temperature",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        }
+    ]
+}

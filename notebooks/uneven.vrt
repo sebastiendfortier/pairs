@@ -1,0 +1,1 @@
+<OGRVRTDataSource>         <OGRVRTLayer name="uneven">             <SrcDataSource>uneven.csv</SrcDataSource>             <GeometryType>wkbPoint</GeometryType>             <GeometryField encoding="PointFromColumns" x="lon" y="lat" z="event_strenght"/>         </OGRVRTLayer>     </OGRVRTDataSource>

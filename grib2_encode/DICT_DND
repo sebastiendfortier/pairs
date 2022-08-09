@@ -1,0 +1,223 @@
+#%SG2_DICT_004
+#*****************************************************************************#
+#                                                                             #
+#               Parameter dictionary for grib encoder/docoder                 #
+#                                                                             #
+#*****************************************************************************#
+#
+#
+# This dictionary is used by the grib encoder/decoder to do the translation
+# between the GRIB2 and the RPN standard file paramater description.
+#
+# Lines with a '#' in the first column (comment lines) and empty lines
+# are not treated
+#
+#
+# Each entry is composed of the folowing elements:
+#
+# Notes:
+#       All elements must be present and on the same line. Any thing
+#       following on the line is consider as comments
+#
+#       "--" is used as a "Not considered" flag.
+#       The entries wich use the "Not considered" flag have a lower matching
+#       priority.
+#
+#
+#
+# Grib file
+#   Center
+#      Cid : Id of the center that produced the field (Common Code Table C-1) (can be a value, less or equal to 255, or "--")
+#      Sub : Id of the sub-center that produced the field (can be a value, less or equal to 255, or "--")
+#   Parameter
+#      dis : Product Discipline - Code table 0.0 (can be a value, less or equal to 255, or "--")
+#      mtab: Grib master table  - Code table 1.0 (can be a value, less or equal to 255, or "--")
+#      cat : Parameter category - Code table 4.1 (can be a value, less or equal to 255, or "--")
+#      Pid : Parameter number - Code table 4.2 (can be a value, less or equal to 255, or "--")
+#      Sta : Type of statical processing - Code table 4.10 (can be a value, less or equal to 255, or "--")
+#      Ache: Atmospheric chemical or physical constituent type- code table 4.230 ( can be a value, less or equal to 65535, or "--")
+
+#   Time range
+#      Tid : Significance of Refence Time (Code Table 1.2) (can be a value, less or equal to 255, or "--")
+#      Un  : Time range units (Code table 4.4)
+#             Possible units are:
+#                s  : seconds
+#                m  : minutes
+#                h  : hours
+#                d  : days
+#                M  : months
+#                y  : years
+#                D  : decades
+#                n  : normal (30 years)
+#                c  : century
+#               10  : 3  hour 
+#               11  : 6  hour 
+#               12  : 12 hour 
+#               --  : not specified. In that case the units are taken from the ip
+#                     parameters time range operations. If there is no ip time operations,
+#                     the default is h (hours).
+#
+#       P   : reserved - not used                                       
+#
+#   Level
+#      Lt1 :  Type of 1st surface - code table 4.5 (can be a value, less or equal to 255, or "--")
+#      v1  :  value of 1st surface level (can be a value or "--")
+#      Lt2 :  Type of 2nd surface - code table 4.5 (can be a value, less or equal to 255, or "--")
+#      v2  :  value of 2nd surface level (can be a value or "--")
+#
+# Standard file
+#    Identification
+#       name    : Name of parameter
+#       ip1     : Operation for ip1
+#       ip1_mag : ip1 value at meter level above ground (number or "--" )
+#       ip2     : Operation for ip2
+#       ip3     : Operation for ip3
+#
+#       Possible operations are:
+#          <value> : Direct assignation
+#                    A value of 32767 in ip1 indicates an hybrid level
+#          LEQ     : Grib level value
+#          LEQ1    : First  grib level value
+#          LEQ2    : Second grib level value
+#
+#          PRH     : Grib level value from hPa to stdf pressure level
+#          PRH1    : First  grib level value hPa to stdf pressure level
+#          PRH2    : Second grib level value hpa to stdf pressure level
+#          PRK     : Grib level value from kPa to stdf pressure level
+#          PRK1    : First  grib level value kPa to stdf pressure level
+#          PRK2    : Second grib level value kpa to stdf pressure level
+#
+#          Z       : Grib level value from m to stdf Z level
+#          Z1      : First  grib level value from m to stdf Z level
+#          Z2      : Second grib level value from m to stdf Z level
+#          Zc      : Grib level value from cm to stdf Z level
+#          Zc1     : First  grib level value from cm to stdf Z level
+#          Zc2     : Second grib level value from cm to stdf Z level
+#          ZH      : Grib level value from hm to stdf Z level
+#          ZH1     : First  grib level value from hm to stdf Z level
+#          ZH2     : Second grib level value from hm to stdf Z level
+#
+#          SIGc    : Grib level value from 1/100 sigma to stdf sigma level
+#          SIGc1   : First  grib level value from 1/100 sigma to stdf sigma level
+#          SIGc2   : Second grib level value from 1/100 sigma to stdf sigma level
+#          SIGm    : Grib level value from 1/1000 sigma to stdf sigma level
+#          SIGm1   : First  grib level value from 1/1000 sigma to stdf sigma level
+#          SIGm2   : Second grib level value from 1/1000 sigma to stdf sigma level
+#          SIGu    : Grib level value from 1/10000 sigma to stdf sigma level
+#          SIGu1   : First  grib level value from 1/10000 sigma to stdf sigma level
+#          SIGu2   : Second grib level value from 1/10000 sigma to stdf sigma level
+#
+#          ETAc    : Grib level value from 1/100 ETA to stdf ETA level                 *******************************
+#          ETAc1   : First  grib level value from 1/100 ETA to stdf ETA level          * New in dictionary version 3 *
+#          ETAc2   : Second grib level value from 1/100 ETA to stdf ETA level          *                             *
+#          ETAm    : Grib level value from 1/1000 ETA to stdf ETA level                * These definitiona are the   *
+#          ETAm1   : First  grib level value from 1/1000 ETA to stdf ETA level         * only difference between     *
+#          ETAm2   : Second grib level value from 1/1000 ETA to stdf ETA level         * versions 2 and 3.           *
+#          ETAu    : Grib level value from 1/10000 ETA to stdf ETA level               *                             *
+#          ETAu1   : First  grib level value from 1/10000 ETA to stdf ETA level        *                             *
+#          ETAu2   : Second grib level value from 1/10000 ETA to stdf ETA level        *******************************
+#          MAG     : Grib level-  meter above ground
+#          cMAG    : Grib level-  centimeter above ground
+#
+#          HYB     : Grib level value from hybrid to stdf hybrid
+#          HYB1    : First  grib level value from hybrid to stdf hybrid
+#          HYB2    : Secong grib level value from hybrid to stdf hybrid
+#
+#          TEQ     : Grib time range value
+#          TEQ1    : First  grib time range value
+#          TEQ2    : Second grib time range value
+#          Ts      : Grib time range value in seconds in the stdf
+#          Ts1     : First  grib time range value in seconds in the stdf
+#          Ts2     : Second grib time range value in seconds in the stdf
+#          Tm      : Grib time range value in minutes in the stdf
+#          Tm1     : First  grib time range value in minutes in the stdf
+#          Tm2     : Second grib time range value in minutes in the stdf
+#          Th      : Grib time range value in hours in the stdf
+#          Th1     : First  grib time range value in hours in the stdf
+#          Th2     : Second grib time range value in hours in the stdf
+#          Td      : Grib time range value in days in the stdf
+#          Td1     : First  grib time range value in days in the stdf
+#          Td2     : Second grib time range value in days in the stdf
+#          TM      : Grib time range value in months in the stdf
+#          TM1     : First  grib time range value in months in the stdf
+#          TM2     : Second grib time range value in months in the stdf
+#          Ty      : Grib time range value in years in the stdf
+#          Ty1     : First  grib time range value in years in the stdf
+#          Ty2     : Second grib time range value in years in the stdf
+#
+#          NOP     : No operation
+#
+#    Conversion
+#       When going from GRIB to RPN standard file.
+#
+#       pre_op : mathematical operation to do on data before
+#                applying factor, delta and post_op
+#       factor : data is multiplied by this factor
+#       delta  : delta is added to data
+#       post_op: mathematical operation to do on data after
+#                applying pre_op, factor and delta
+#
+#       Note:
+#             std_value = post_op( (pre_op(grb_value) + delta) * factor )
+#
+#
+#       Possible pre_op and post_op:
+#          NOP    : No operation. Data is left unchange. f(x) = x
+#          LOG    : Logarithm base 10                    f(x) = log(x)
+#          P10    : Power of 10                          f(x) = 10**(x)
+#
+#  Notes concerning CMC local parameters and levels
+#
+#
+#-------------------------------------------------------------
+#
+#                       Grib file                                        |                   Standard file
+# |-Center-| -------- Param  --------------|-Time rang-|  ---Level ----  |   --Identification  --    --  -----Conversion  --  --  ---
+# | Cid sub| dis mtab  cat Pid   Sta  ache | Tid Un  P | Lt1  v1 Lt2 v2  | name ip1  ip1_mag ip2   ip3    pre-op factor     delta post_op
+#            0.0 1.0   4.1 4.2   4.10 4.230               4.5     4.5
+
+#
+#Cette section pour variables surfaces isobariques pour membres des ensembles
+
+     --  --  000  --   003 000    --   --    -- -- --    111  -- --  --    PX   ETAu   --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   003 000    --   --    -- -- --    001  -- --  --    P0   MIS   00    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   003 000    --   --    -- -- --    006  -- --  --    P0   1198  --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   003 000    --   --    -- -- --    007  -- --  --    P0   1199  --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   003 001    --   --    -- -- --    102 --  --  --    PN     0   --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   003 001    --   --    -- -- --    101  -- --  --    PN   MIS   00    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   000 000    --   --    -- -- --    100  -- --  --    TT   PRH   --    NOP   NOP    NOP    1.0         -273.15 NOP
+     --  --  000  --   000 000    --   --    -- -- --    111  -- --  --    TT   ETAu  --    NOP   NOP    NOP    1.0         -273.15 NOP
+     --  --  000  --   000 000    --   --    -- -- --    103  02 --  --    TT   MAG   12000 NOP   NOP    NOP    1.0         -273.15 NOP
+     --  --  000  --   002 002    --   --    -- -- --    100  -- --  --    UU   PRH   --    NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   002 002    --   --    -- -- --    111 --  --  --    UU   ETAu  --    NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   002 002    --   --    -- -- --    103  10 --  --    UU   MAG   12000 NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   002 003    --   --    -- -- --    100  -- --  --    VV   PRH   --    NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   002 003    --   --    -- -- --    111 --  --  --    VV   ETAu  --    NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   002 003    --   --    -- -- --    103  10 --  --    VV   MAG   12000 NOP   NOP    NOP    1.9440124      0.0  NOP
+     --  --  000  --   001 001    --   --    -- -- --    111  -- --  --    HR   ETAu  --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   001 001    --   --    -- -- --    100  -- --  --    HR   PRH   --    NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   001 001    --   --    -- -- --    103  02 --  --    HR   MAG   12000 NOP   NOP    NOP    .01            0.0  NOP
+     --  --  000  --   000 007    --   --    -- -- --    100  -- --  --    ES   PRH   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   000 007    --   --    -- -- --    111  -- --  --    ES   ETAu  --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   000 007    --   --    -- -- --    103  02 --  --    ES   MAG   12000 NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   006 001    --   --    -- -- --    001  -- --  --    NT   MIS   00    Th2   Th1    NOP    .01            0.0  NOP
+     --  --  000  --   005 004    --   --    -- -- --    008 --  --  --    EI     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   005 004    --   --    -- -- --    008 --  --  --    EI     0   --    Th      0    NOP    1.0            0.0  NOP
+     --  --  000  --   005 004    00   --    -- -- --    008 --  --  --    EI     0   --    Th1   Th2    NOP    1.0            0.0  NOP
+     --  --  000  --   003 005    --   --    -- -- --    100  -- --  --    GZ   PRH   --    NOP   NOP    NOP    0.1            0.0  NOP
+     --  --  000  --   003 005    --   --    -- -- --    111  -- --  --    GZ   ETAu  --    NOP   NOP    NOP    0.1            0.0  NOP
+     --  --  000  --   003 012    --   --    -- -- --    100 100000 100 50000  DZ  PRH  --  NOP   NOP    NOP    0.1            0.0  NOP
+     --  --  000  --   000 011    --   --    -- -- --    001 --  --  --    FC  1195   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   000 011    --   --    -- -- --    001 --  --  --    FC  1195   --    Th      0    NOP    1.0            0.0  NOP
+     --  --  000  --   000 011    00   --    -- -- --    001 --  --  --    FC  1195   --    Th1   Th2    NOP    1.0            0.0  NOP
+     --  --  000  --   000 011    --   --    -- -- --    001 --  --  --    FC     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   000 011    --   --    -- -- --    001 --  --  --    FC     0   --    Th      0    NOP    1.0            0.0  NOP
+     --  --  000  --   000 011    00   --    -- -- --    001 --  --  --    FC     0   --    Th1   Th2    NOP    1.0            0.0  NOP
+     --  --  000  --   003 004    --   --    -- -- --    001 --  --  --    MX     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  002  --   000 000    --   --    -- -- --    001 --  --  --    MG     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  002  --   000 001    --   --    -- -- --    001  -- --  --    Z0     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   002 009    --   --    -- -- --    100 --  --  --  GEOW   PRH   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   019 000    --   --    -- -- --    001  -- --  --   VIS     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+     --  --  000  --   001 019    --   --    -- -- --    001 --  --  --    T6     0   --    NOP   NOP    NOP    1.0            0.0  NOP
+
+

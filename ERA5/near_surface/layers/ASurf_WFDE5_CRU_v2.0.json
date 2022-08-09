@@ -1,0 +1,16 @@
+{
+	"layerType": "Raster", 
+	"layers":
+    [
+    {
+        "name": "Surface Altitude",
+        "name_alternate": "ASurf",
+        "description_short": "Surface Altitude",
+        "datatype": "fl",
+        "units": "m",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    }
+    ]
+}

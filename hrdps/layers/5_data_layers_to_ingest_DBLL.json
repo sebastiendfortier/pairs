@@ -1,0 +1,26 @@
+{
+	"layerType": "Raster", 
+	"layers": 
+    [
+        {
+            "name": "Soil moisture content",
+            "name_alternate": "SOILM",
+            "description_short": "Soil moisture content",
+            "datatype": "fl",
+            "units": "kg/(m^2)",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Soil temperature",
+            "name_alternate": "TSOIL",
+            "description_short": "Soil temperature",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        }
+    ]
+}

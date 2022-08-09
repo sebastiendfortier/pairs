@@ -1,0 +1,121 @@
+#%SG_CONF_001
+
+#    Std var name:
+#     --  : Use these grib parametres for all std var names
+#     XX  : Use these grib parametres for this std XX var name
+#
+#    Grib parametre:
+#     section:  nn     : section number. This value should indicate the beginning of the config line.
+#     pam name: nn /-- : nn is the default value;
+#                        -- means use the default value
+#	  pd_tplate nn     : nn is the product definition template number. This number should indicate
+#                           template that this config line represents.
+#     dr_tplate nn     : nn is the data representaion template number. This number should indicate
+#                           template that this config line represents.
+#
+#   Parametre          Default
+# 
+#  variables configuration (all on one line):
+#  1  section             00         Section number (should be 0   )       
+#  2  discipline          00 /--     GRIB2 discipline code table 0.0 
+#  3  mastertabl          00 /--     GRIB2 master table (code table 1.0)
+#  4  localtabl           00 /--     Version num of GRIB2 local table (code 1.1)
+#  5  sgnf_ref_tim        00 /--     Signicance of reference time (code table 1.2) 
+#  6  prod_status         00 /--     Production status of processed data (code table 1.3) - 5=test, 4=ops remember to set to 4 when going ops
+#  7  prod_datatyp        00 /--     Type of prcessed data in GRIB2 message (code table 1.4)
+#  8  forc_datatyp        00 /--     Force to use the above yype of prcessed data in GRIB2 message (code table 1.4)
+#  9  pd_tplate           00 /--     Product definition template number (code table 4.0)   
+# 10  pd_cat              00 /--     Parameter category (code table 4.1)
+# 11  pd_num              00 /--     Parameter number   (code table 4.2)
+# 12  def_typprocess      00 /--     Type of generating process (code table 4.3)
+# 13  pd_ltyp             00 /--     Type of fixed surface (code table 4.5)
+# 14  def_process         00 /--     Generating process                   
+# 15  def_bg_process      00 /--     Background generating process       
+# 16  dr_tplate           40 /--     Data representation template number (code table 5.0).  
+#                                      Config line for template 5.40 should follow in this file
+#                                      when 40 is the value of dr_tplate                  
+#
+#  variables for pds template 4.1 (all on one line):
+#     section              4         Section number (should be 4   )       
+#	  pd_tplate           01         Product definition template number (should be  1  ) 
+#     var_name            --         Std var name (may be -- or should be listed in grib2 dict)  
+#     typ_ens_fcst        00 /--     Type of ensemble forecast (code table 4.6)           
+#     pert_num            00 /--     Pertubation number (should be a number )            
+#     num_fcst_ens        21 /--     Number of forecasts in ensemble (should be a number)
+#  
+#  variables for pds template 4.8  (all on one line):
+#  1  section             04         Section number (should be 4   )       
+#  2  pd_tplate           08         Product definition template number (should be  8   ) 
+#  3  var_name            --         Std var name (may be -- or should be listed in grib2 dict)  
+#  4  std_ip3              1 /--     Set std ip3 to the beginning of interval (0 = do not set ) 
+#  5  num_tim_int          1 /--     Number of time range specifications describing..    
+#  6  num_mis_val          0 /--     Total number of data values missing in statitical process
+#     ................
+#  +1 . stat_proc         00 /--     statistical process used to calculate the processd field (code table 4.10)
+#  +2 . typ_tim_inc        1 /--     Type of time increment between succ. field... (code table 4.11)
+#  +3 . ind_unit_tim       1 /--     Indicator of unit of time ...(code table 4.4)
+#  +4 . len_tim_rang       6 /--     Length of time range over which stat...
+#  +5 . ind_tim_rang_inc   1 /--     Indicator of unit of time ...(code table 4.4)
+#  +6 . tim_inc            0 /--     Time increment between succ. field .
+#     .... (num_tim_int times of) ....
+#  
+#  variables for pds template 4.11 (all on one line):
+#  1  section             04         Section number (should be 4   )       
+#  2  pd_tplate           11         Product definition template number (should be  11  ) 
+#  3  var_name            --         Std var name (may be -- or should be listed in grib2 dict)  
+#  4  std_ip3              1 /--     Set std ip3 to the beginning of interval (0 = do not set ) 
+#  5  typ_ens_fcst        00 /--     Type of ensemble forecast (code table 4.6)           
+#  6  pert_num            00 /--     Pertubation number (should be a number )            
+#  7  num_fcst_ens        21 /--     Number of forecasts in ensemble (should be a number)
+#  8  num_tim_int          1 /--     Number of time range specifications describing..    
+#  9  num_mis_val          0 /--     Total number of data values missing in statitical process
+#     ................
+#  +1 . stat_proc         00 /--     statistical process used to calculate the processd field (code table 4.10)
+#  +2 . typ_tim_inc        1 /--     Type of time increment between succ. field... (code table 4.11)
+#  +3 . ind_unit_tim       1 /--     Indicator of unit of time ...(code table 4.4)
+#  +4 . len_tim_rang       6 /--     Length of time range over which stat...
+#  +5 . ind_tim_rang_inc   1 /--     Indicator of unit of time ...(code table 4.4)
+#  +6 . tim_inc            0 /--     Time increment between succ. field .
+#     .... (num_tim_int times of) ....
+#  
+#  variables for dts template 5.40 (all on one line):
+#     section              5         Section number (should be 5   ) 
+#     dr_tplate           40         Data representation template number (should be 40  )
+#     var_name            --         Std var name (may be -- or should be listed in grib2 dict)
+#     jpg_typ_comp        00 /--     Type of compression used (code table 5.40)
+#     jpg_tag_comp       255 /--     Taget compression ratio M:1 ... 
+#  
+#  variables for dts template 5.41 (all on one line):
+#     section              5         Section number (should be 5   ) 
+#     dr_tplate           41         Data representation template number (should be 41  )
+#     var_name            --         Std var name (may be -- or should be listed in grib2 dict)
+#     png_nbit_pack       24 /--     The depth of image
+#  
+#  1   2    3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21
+   0  00   04  00  01  00  02  01  00  00  00  02  00  45  45  40
+#
+   4  01   --  00  00  21
+   4  08   T7  01  --  00  03  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   T8  01  --  00  02  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08  WGN  01  --  00  03  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08  WGX  01  --  00  02  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   GR  01  --  00  00  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   TN  01  --  00  00  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   RA  01  --  00  00  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   ZR  01  --  00  00  02  --  --  --  --  --  --  --  --  --  --  --
+   4  08   RN  01  --  00  01  02  01  --  --  -- 
+   4  08   SN  01  --  00  01  02  01  --  --  -- 
+   4  08 SNLR  01  --  00  01  02  01  --  --  --
+   4  08 SLQR  01  --  00  02  02  01  --  --  --
+   4  08   PE  01  --  00  01  02  01  --  --  -- 
+   4  08   FR  01  --  00  01  02  01  --  --  -- 
+   4  08   PR  01  --  00  01  02  01  --  --  -- 
+   4  08   NW  01  --  00  01  02  01  --  --  --
+   4  08   PC  01  --  00  01  02  01  --  --  --
+   4  08   N4  01  --  00  01  02  01  --  --  --
+   4  08   AB  01  --  00  01  02  01  --  --  --
+   4  08   AD  01  --  00  01  02  01  --  --  --
+   4  08   AI  01  --  00  01  02  01  --  --  --
+   4  08   AS  01  --  00  01  02  01  --  --  --
+#
+   5  40   --  00  255

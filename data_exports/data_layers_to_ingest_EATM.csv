@@ -1,0 +1,2 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Cloud water,CWAT,Cloud water,fl,kg/(m^2),ACTIVE,15,near,1

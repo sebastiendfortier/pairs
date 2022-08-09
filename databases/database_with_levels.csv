@@ -1,0 +1,227 @@
+file,time,var,name,units,type_of_level,levels
+2017010100_000.grib2,2017:01:01-00:00:00,siconc,Sea ice area fraction,(0 - 1),surface,
+2017010100_000.grib2,2017:01:01-00:00:00,sst,Sea surface temperature,K,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,orog,Orography,m,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,lsm,Land-sea mask,(0 - 1),surface,
+2017010100_000.grib2,2017:01:01-00:00:00,sp,Surface pressure,Pa,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,ssrd,Surface solar radiation downwards,J m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,nswrs,Net short-wave radiation flux (surface),W m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,strd,Surface thermal radiation downwards,J m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,nlwrs,Net long wave radiation flux (surface),W m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,unknown,unknown,unknown,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,sde,Snow depth,m,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,q,Specific humidity,kg kg**-1,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,shtfl,Sensible heat net flux,W m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,lhtfl,Latent heat net flux,W m**-2,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,al,Albedo,%,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,st,Soil temperature,K,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,lftx4,Best (4-layer) lifted index,K,surface,
+2017010100_000.grib2,2017:01:01-00:00:00,prmsl,Pressure reduced to MSL,Pa,meanSea,
+2017010100_000.grib2,2017:01:01-00:00:00,dswrf,Downward short-wave radiation flux,W m**-2,nominalTop,
+2017010100_000.grib2,2017:01:01-00:00:00,uswrf,Upward short-wave radiation flux,W m**-2,nominalTop,
+2017010100_000.grib2,2017:01:01-00:00:00,ulwrf,Upward long-wave radiation flux,W m**-2,nominalTop,
+2017010100_000.grib2,2017:01:01-00:00:00,cwat,Cloud water,kg m**-2,atmosphere,
+2017010100_000.grib2,2017:01:01-00:00:00,u,U component of wind,m s**-1,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,v,V component of wind,m s**-1,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,ws,Wind speed,m s**-1,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,wdir,Wind direction,Degree true,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,t,Temperature,K,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,q,Specific humidity,kg kg**-1,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,r,Relative humidity,%,eta,"9850.0,9950.0"
+2017010100_000.grib2,2017:01:01-00:00:00,t2m,2 metre temperature,K,heightAboveGround,
+2017010100_000.grib2,2017:01:01-00:00:00,d2m,2 metre dewpoint temperature,K,heightAboveGround,
+2017010100_000.grib2,2017:01:01-00:00:00,sh2,2 metre specific humidity,kg kg**-1,heightAboveGround,
+2017010100_000.grib2,2017:01:01-00:00:00,r2,2 metre relative humidity,%,heightAboveGround,
+2017010100_000.grib2,2017:01:01-00:00:00,st,Soil temperature,K,depthBelowLandLayer,
+2017010100_000.grib2,2017:01:01-00:00:00,ssw,Soil moisture content,kg m**-2,depthBelowLandLayer,
+2017010100_000.grib2,2017:01:01-00:00:00,r,Relative humidity,%,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,t,Temperature,K,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,gh,Geopotential height,gpm,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,u,U component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,v,V component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,ws,Wind speed,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,wdir,Wind direction,Degree true,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,unknown,unknown,unknown,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,q,Specific humidity,kg kg**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2017010100_000.grib2,2017:01:01-00:00:00,thick,Thickness,m,isobaricLayer,
+2018010100_000.grib2,2018:01:01-00:00:00,siconc,Sea ice area fraction,(0 - 1),surface,
+2018010100_000.grib2,2018:01:01-00:00:00,sst,Sea surface temperature,K,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,orog,Orography,m,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,lsm,Land-sea mask,(0 - 1),surface,
+2018010100_000.grib2,2018:01:01-00:00:00,sp,Surface pressure,Pa,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,ssrd,Surface solar radiation downwards,J m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,nswrs,Net short-wave radiation flux (surface),W m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,strd,Surface thermal radiation downwards,J m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,nlwrs,Net long wave radiation flux (surface),W m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,unknown,unknown,unknown,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,sde,Snow depth,m,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,q,Specific humidity,kg kg**-1,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,shtfl,Sensible heat net flux,W m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,lhtfl,Latent heat net flux,W m**-2,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,al,Albedo,%,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,st,Soil temperature,K,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,lftx4,Best (4-layer) lifted index,K,surface,
+2018010100_000.grib2,2018:01:01-00:00:00,prmsl,Pressure reduced to MSL,Pa,meanSea,
+2018010100_000.grib2,2018:01:01-00:00:00,dswrf,Downward short-wave radiation flux,W m**-2,nominalTop,
+2018010100_000.grib2,2018:01:01-00:00:00,uswrf,Upward short-wave radiation flux,W m**-2,nominalTop,
+2018010100_000.grib2,2018:01:01-00:00:00,ulwrf,Upward long-wave radiation flux,W m**-2,nominalTop,
+2018010100_000.grib2,2018:01:01-00:00:00,cwat,Cloud water,kg m**-2,atmosphere,
+2018010100_000.grib2,2018:01:01-00:00:00,u,U component of wind,m s**-1,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,v,V component of wind,m s**-1,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,ws,Wind speed,m s**-1,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,wdir,Wind direction,Degree true,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,t,Temperature,K,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,q,Specific humidity,kg kg**-1,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,r,Relative humidity,%,eta,"9850.0,9950.0"
+2018010100_000.grib2,2018:01:01-00:00:00,t2m,2 metre temperature,K,heightAboveGround,
+2018010100_000.grib2,2018:01:01-00:00:00,d2m,2 metre dewpoint temperature,K,heightAboveGround,
+2018010100_000.grib2,2018:01:01-00:00:00,sh2,2 metre specific humidity,kg kg**-1,heightAboveGround,
+2018010100_000.grib2,2018:01:01-00:00:00,r2,2 metre relative humidity,%,heightAboveGround,
+2018010100_000.grib2,2018:01:01-00:00:00,st,Soil temperature,K,depthBelowLandLayer,
+2018010100_000.grib2,2018:01:01-00:00:00,ssw,Soil moisture content,kg m**-2,depthBelowLandLayer,
+2018010100_000.grib2,2018:01:01-00:00:00,r,Relative humidity,%,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,t,Temperature,K,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,gh,Geopotential height,gpm,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,u,U component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,v,V component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,ws,Wind speed,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,wdir,Wind direction,Degree true,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,unknown,unknown,unknown,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,q,Specific humidity,kg kg**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2018010100_000.grib2,2018:01:01-00:00:00,thick,Thickness,m,isobaricLayer,
+2019010100_000.grib2,2019:01:01-00:00:00,prmsl,Pressure reduced to MSL,Pa,meanSea,
+2019010100_000.grib2,2019:01:01-00:00:00,dswrf,Downward short-wave radiation flux,W m**-2,nominalTop,
+2019010100_000.grib2,2019:01:01-00:00:00,uswrf,Upward short-wave radiation flux,W m**-2,nominalTop,
+2019010100_000.grib2,2019:01:01-00:00:00,ulwrf,Upward long-wave radiation flux,W m**-2,nominalTop,
+2019010100_000.grib2,2019:01:01-00:00:00,cwat,Cloud water,kg m**-2,atmosphere,
+2019010100_000.grib2,2019:01:01-00:00:00,u,U component of wind,m s**-1,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,v,V component of wind,m s**-1,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,ws,Wind speed,m s**-1,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,wdir,Wind direction,Degree true,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,t,Temperature,K,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,q,Specific humidity,kg kg**-1,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,r,Relative humidity,%,eta,"9850.0,9950.0"
+2019010100_000.grib2,2019:01:01-00:00:00,t2m,2 metre temperature,K,heightAboveGround,
+2019010100_000.grib2,2019:01:01-00:00:00,d2m,2 metre dewpoint temperature,K,heightAboveGround,
+2019010100_000.grib2,2019:01:01-00:00:00,sh2,2 metre specific humidity,kg kg**-1,heightAboveGround,
+2019010100_000.grib2,2019:01:01-00:00:00,r2,2 metre relative humidity,%,heightAboveGround,
+2019010100_000.grib2,2019:01:01-00:00:00,st,Soil temperature,K,depthBelowLandLayer,
+2019010100_000.grib2,2019:01:01-00:00:00,ssw,Soil moisture content,kg m**-2,depthBelowLandLayer,
+2019010100_000.grib2,2019:01:01-00:00:00,r,Relative humidity,%,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,t,Temperature,K,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,gh,Geopotential height,gpm,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,u,U component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,v,V component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,ws,Wind speed,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,wdir,Wind direction,Degree true,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,unknown,unknown,unknown,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,q,Specific humidity,kg kg**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2019010100_000.grib2,2019:01:01-00:00:00,thick,Thickness,m,isobaricLayer,
+2020010100_000.grib2,2020:01:01-00:00:00,rsn,Snow density,kg m**-3,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,sro,Surface runoff,kg m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,sst,Sea surface temperature,K,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,skt,Skin temperature,K,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,orog,Orography,m,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,lsm,Land-sea mask,(0 - 1),surface,
+2020010100_000.grib2,2020:01:01-00:00:00,sp,Surface pressure,Pa,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,hpbl,Planetary boundary layer height,m,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,sd,Snow depth water equivalent,kg m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,vsi,Volumetric soil ice,m**3 m**-3,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,siconc,Sea ice area fraction,(0 - 1),surface,
+2020010100_000.grib2,2020:01:01-00:00:00,ssrd,Surface solar radiation downwards,J m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,nswrs,Net short-wave radiation flux (surface),W m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,strd,Surface thermal radiation downwards,J m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,nlwrs,Net long wave radiation flux (surface),W m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,unknown,unknown,unknown,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,sde,Snow depth,m,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,q,Specific humidity,kg kg**-1,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,shtfl,Sensible heat net flux,W m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,lhtfl,Latent heat net flux,W m**-2,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,al,Albedo,%,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,st,Soil temperature,K,surface,
+2020010100_000.grib2,2020:01:01-00:00:00,ptype,Precipitation type,code table (4.201),surface,
+2020010100_000.grib2,2020:01:01-00:00:00,prmsl,Pressure reduced to MSL,Pa,meanSea,
+2020010100_000.grib2,2020:01:01-00:00:00,dswrf,Downward short-wave radiation flux,W m**-2,nominalTop,
+2020010100_000.grib2,2020:01:01-00:00:00,uswrf,Upward short-wave radiation flux,W m**-2,nominalTop,
+2020010100_000.grib2,2020:01:01-00:00:00,ulwrf,Upward long-wave radiation flux,W m**-2,nominalTop,
+2020010100_000.grib2,2020:01:01-00:00:00,cwat,Cloud water,kg m**-2,atmosphere,
+2020010100_000.grib2,2020:01:01-00:00:00,u,U component of wind,m s**-1,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,v,V component of wind,m s**-1,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,ws,Wind speed,m s**-1,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,wdir,Wind direction,Degree true,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,t,Temperature,K,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,q,Specific humidity,kg kg**-1,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,r,Relative humidity,%,eta,"9850.0,9950.0"
+2020010100_000.grib2,2020:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,u10,10 metre U wind component,m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,v10,10 metre V wind component,m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,si10,10 metre wind speed,m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,wdir10,10 metre wind direction,Degree true,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2020010100_000.grib2,2020:01:01-00:00:00,st,Soil temperature,K,depthBelowLandLayer,
+2020010100_000.grib2,2020:01:01-00:00:00,ssw,Soil moisture content,kg m**-2,depthBelowLandLayer,
+2020010100_000.grib2,2020:01:01-00:00:00,unknown,unknown,unknown,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,r,Relative humidity,%,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,t,Temperature,K,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,gh,Geopotential height,gpm,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,u,U component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,v,V component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,ws,Wind speed,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,wdir,Wind direction,Degree true,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,q,Specific humidity,kg kg**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0"
+2020010100_000.grib2,2020:01:01-00:00:00,thick,Thickness,m,isobaricLayer,
+2021010100_000.grib2,2021:01:01-00:00:00,rsn,Snow density,kg m**-3,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,sro,Surface runoff,kg m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,sst,Sea surface temperature,K,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,skt,Skin temperature,K,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,orog,Orography,m,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,lsm,Land-sea mask,(0 - 1),surface,
+2021010100_000.grib2,2021:01:01-00:00:00,sp,Surface pressure,Pa,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,hpbl,Planetary boundary layer height,m,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,sd,Snow depth water equivalent,kg m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,vsi,Volumetric soil ice,m**3 m**-3,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,siconc,Sea ice area fraction,(0 - 1),surface,
+2021010100_000.grib2,2021:01:01-00:00:00,ssrd,Surface solar radiation downwards,J m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,nswrs,Net short-wave radiation flux (surface),W m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,strd,Surface thermal radiation downwards,J m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,nlwrs,Net long wave radiation flux (surface),W m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,unknown,unknown,unknown,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,sde,Snow depth,m,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,q,Specific humidity,kg kg**-1,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,shtfl,Sensible heat net flux,W m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,lhtfl,Latent heat net flux,W m**-2,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,al,Albedo,%,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,st,Soil temperature,K,surface,
+2021010100_000.grib2,2021:01:01-00:00:00,ptype,Precipitation type,code table (4.201),surface,
+2021010100_000.grib2,2021:01:01-00:00:00,prmsl,Pressure reduced to MSL,Pa,meanSea,
+2021010100_000.grib2,2021:01:01-00:00:00,dswrf,Downward short-wave radiation flux,W m**-2,nominalTop,
+2021010100_000.grib2,2021:01:01-00:00:00,uswrf,Upward short-wave radiation flux,W m**-2,nominalTop,
+2021010100_000.grib2,2021:01:01-00:00:00,ulwrf,Upward long-wave radiation flux,W m**-2,nominalTop,
+2021010100_000.grib2,2021:01:01-00:00:00,cwat,Cloud water,kg m**-2,atmosphere,
+2021010100_000.grib2,2021:01:01-00:00:00,u,U component of wind,m s**-1,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,v,V component of wind,m s**-1,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,ws,Wind speed,m s**-1,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,wdir,Wind direction,Degree true,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,t,Temperature,K,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,q,Specific humidity,kg kg**-1,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,r,Relative humidity,%,eta,"9850.0,9950.0"
+2021010100_000.grib2,2021:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,u10,10 metre U wind component,m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,v10,10 metre V wind component,m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,si10,10 metre wind speed,m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,wdir10,10 metre wind direction,Degree true,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,gust,Wind speed (gust),m s**-1,heightAboveGround,
+2021010100_000.grib2,2021:01:01-00:00:00,st,Soil temperature,K,depthBelowLandLayer,
+2021010100_000.grib2,2021:01:01-00:00:00,ssw,Soil moisture content,kg m**-2,depthBelowLandLayer,
+2021010100_000.grib2,2021:01:01-00:00:00,unknown,unknown,unknown,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,r,Relative humidity,%,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,t,Temperature,K,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,gh,Geopotential height,gpm,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,u,U component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,v,V component of wind,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,ws,Wind speed,m s**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,wdir,Wind direction,Degree true,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,q,Specific humidity,kg kg**-1,isobaricInhPa,"1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0,30.0,20.0,10.0"
+2021010100_000.grib2,2021:01:01-00:00:00,thick,Thickness,m,isobaricLayer,

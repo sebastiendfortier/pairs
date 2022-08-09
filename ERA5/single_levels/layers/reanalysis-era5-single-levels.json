@@ -1,0 +1,216 @@
+{
+	"layerType": "Raster", 
+	"layers":
+[
+    {
+        "name": "U wind component 10m",
+        "name_alternate": "u10",
+        "description_short": "10 metre U wind component",
+        "datatype": "fl",
+        "units": "m s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "V wind component 10m",
+        "name_alternate": "v10",
+        "description_short": "10 metre V wind component",
+        "datatype": "fl",
+        "units": "m s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Wind gust since previous post processing 10m",
+        "name_alternate": "fg10",
+        "description_short": "10 metre wind gust since previous post-processing",
+        "datatype": "fl",
+        "units": "m s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Dewpoint temperature 2m",
+        "name_alternate": "d2m",
+        "description_short": "2 metre dewpoint temperature",
+        "datatype": "fl",
+        "units": "K",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Temperature 2m",
+        "name_alternate": "t2m",
+        "description_short": "2 metre temperature",
+        "datatype": "fl",
+        "units": "K",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Geopotential",
+        "name_alternate": "z",
+        "description_short": "Geopotential",
+        "datatype": "fl",
+        "units": "m**2 s**-2",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Maximum individual wave height",
+        "name_alternate": "hmax",
+        "description_short": "Maximum individual wave height",
+        "datatype": "fl",
+        "units": "m",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Mean sea level pressure",
+        "name_alternate": "msl",
+        "description_short": "Mean sea level pressure",
+        "datatype": "fl",
+        "units": "Pa",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Precipitation type",
+        "name_alternate": "ptype",
+        "description_short": "Precipitation type",
+        "datatype": "fl",
+        "units": "code table (4.201)",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Sea ice area fraction",
+        "name_alternate": "siconc",
+        "description_short": "Sea ice area fraction",
+        "datatype": "fl",
+        "units": "(0 - 1)",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Significant height of combined wnd wves and swll",
+        "name_alternate": "swh",
+        "description_short": "Significant height of combined wind waves and swell",
+        "datatype": "fl",
+        "units": "m",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Significant height of wind waves",
+        "name_alternate": "shww",
+        "description_short": "Significant height of wind waves",
+        "datatype": "fl",
+        "units": "m",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Snowfall",
+        "name_alternate": "sf",
+        "description_short": "Snowfall",
+        "datatype": "fl",
+        "units": "m of water equivalent",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Surface pressure",
+        "name_alternate": "sp",
+        "description_short": "Surface pressure",
+        "datatype": "fl",
+        "units": "Pa",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Surface solar radiation downwards",
+        "name_alternate": "ssrd",
+        "description_short": "Surface solar radiation downwards",
+        "datatype": "fl",
+        "units": "J m**-2",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "TOA incident solar radiation",
+        "name_alternate": "tisr",
+        "description_short": "TOA incident solar radiation",
+        "datatype": "fl",
+        "units": "J m**-2",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Total cloud cover",
+        "name_alternate": "tcc",
+        "description_short": "Total cloud cover",
+        "datatype": "fl",
+        "units": "(0 - 1)",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Total column vertically integrated water vapour",
+        "name_alternate": "tcwv",
+        "description_short": "Total column vertically-integrated water vapour",
+        "datatype": "fl",
+        "units": "kg m**-2",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Total precipitation",
+        "name_alternate": "tp",
+        "description_short": "Total precipitation",
+        "datatype": "fl",
+        "units": "m",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Vertical integral of eastward water vapour flux",
+        "name_alternate": "p71.162",
+        "description_short": "Vertical integral of eastward water vapour flux",
+        "datatype": "fl",
+        "units": "kg m**-1 s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Vertical integral of northward water vapour flux",
+        "name_alternate": "p72.162",
+        "description_short": "Vertical integral of northward water vapour flux",
+        "datatype": "fl",
+        "units": "kg m**-1 s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    }
+]
+}

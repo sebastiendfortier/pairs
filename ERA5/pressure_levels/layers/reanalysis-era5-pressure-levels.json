@@ -1,0 +1,66 @@
+{
+	"layerType": "Raster", 
+	"layers":
+[
+    {
+        "name": "Geopotential",
+        "name_alternate": "z",
+        "description_short": "Geopotential",
+        "datatype": "fl",
+        "units": "m**2 s**-2",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Temperature",
+        "name_alternate": "t",
+        "description_short": "Temperature",
+        "datatype": "fl",
+        "units": "K",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "U component of wind",
+        "name_alternate": "u",
+        "description_short": "U component of wind",
+        "datatype": "fl",
+        "units": "m s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "V component of wind",
+        "name_alternate": "v",
+        "description_short": "V component of wind",
+        "datatype": "fl",
+        "units": "m s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Vertical velocity",
+        "name_alternate": "w",
+        "description_short": "Vertical velocity",
+        "datatype": "fl",
+        "units": "Pa s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    },
+    {
+        "name": "Vorticity relative",
+        "name_alternate": "vo",
+        "description_short": "Vorticity (relative)",
+        "datatype": "fl",
+        "units": "s**-1",
+        "status": "ACTIVE",
+        "level": 13,
+        "interpolation": "near"
+    }
+]
+}

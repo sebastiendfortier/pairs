@@ -1,0 +1,11 @@
+{
+    "description_short" : "Lightning stroke events that occur within the Canadian Lightning Network real-time delivery region",
+    "description_long" : "Lightning stroke events that occur within the Canadian Lightning Network real-time delivery region",
+    "name" : "Lightning stroke events",
+    "category" : {
+      "id" : 1,
+      "name" : "Observations"
+    },
+    "level" : 13
+  } 
+  

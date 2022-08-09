@@ -1,0 +1,10 @@
+{
+  "name" : "ERA5 near surface", 
+  "description_short" : "Near surface meteorological variables from 1979 to 2019 derived from bias-corrected reanalysis",
+  "description_long" : "This dataset provides bias-corrected reconstruction of near-surface meteorological variables derived from the fifth generation of the European Centre for Medium-Range Weather Forecasts (ECMWF) atmospheric reanalyses (ERA5). It is intended to be used as a meteorological forcing dataset for land surface and hydrological models. ",
+  "category" : {
+    "id" : 1,
+    "name" : "Satellite"
+  },
+  "level" : 13
+} 

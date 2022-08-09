@@ -1,0 +1,123 @@
+Total number of variables: 80
+
+NTAT Nominal top of atmosphere coord: 3
+
+* Downward short wave radiation flux
+* Upward long wave radiation flux
+* Upward short wave radiation flux
+
+SFC Ground or water surface coord: 37
+
+* Total precipitation 06 hr
+* Total precipitation 12 hr
+* Total precipitation 18 hr
+* Total precipitation 24 hr
+* Total precipitation 30 hr
+* Total precipitation 36 hr
+* 42 hr Total precipitation
+* 48 hr Total precipitation
+* Albedo
+* Convective precipitation
+* Downward long wave radiation flux
+* Downward short wave radiation flux
+* Freezing rain precipitation rate
+* Geopotential height
+* Ice cover
+* Ice pellets precipitation rate
+* Land cover
+* Latent heat net flux
+* Net long wave radiation flux surface
+* Net short wave radiation flux surface
+* Planetary boundary layer height
+* Precipitation rate
+* Precipitation type
+* Pressure
+* Rain precipitation rate
+* Sensible heat net flux
+* Skin temperature
+* Snow density
+* Snow depth
+* Snow depth water equivalent
+* Snow precipitation rate
+* Soil Volumetric Ice Content Water Equivalent
+* Soil temperature
+* Specific humidity
+* Surface Water Runoff
+* Total cloud cover
+* Water temperature
+
+ETAL Eta levels coord: (7*2) + 4 = 18
+
+* Convective available potential energy
+* Dew point depression
+* Geopotential height
+* Relative humidity 
+  - levels "9850.0,9950.0" (2 levels)
+* Specific humidity
+  - levels "9850.0,9950.0" (2 levels)
+* Storm relative helicity 
+* Temperature
+  - levels "9850.0,9950.0" (2 levels)
+* Wind direction from which blowing
+  - levels "9850.0,9950.0" (2 levels)
+* Wind speed
+  - levels "9850.0,9950.0" (2 levels)
+* u component of wind
+  - levels "9850.0,9950.0" (2 levels)
+* v component of wind
+  - levels "9850.0,9950.0" (2 levels)
+
+EATM Entire Atmosphere coord: 1
+
+* Cloud water
+
+DBLL Depth below land surface levels in meters coord: 2
+
+* Soil moisture content
+* Soil temperature
+
+HTGL Specified height level above ground coord: 11
+
+* Density
+* Dew point depression
+* Dew point temperature
+* Relative humidity
+* Specific humidity
+* Temperature
+* Wind direction from which blowing
+* Wind speed
+* Wind speed gust
+* u component of wind
+* v component of wind
+
+ISBL Isobaric surface coord: (8 * 28|31) + 6 = 230|254
+
+* Absolute vorticity
+* Best 4 layer lifted index
+* Dew point depression
+* Geopotential height
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* Relative humidity
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* Showalter Index
+* Specific humidity
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* Temperature
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* Thickness
+* Vertical velocity pressure
+* Wind direction from which blowing
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* Wind speed
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* u component of wind
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+* v component of wind
+  - levels are 1015.0,1000.0,985.0,970.0,950.0,925.0,900.0,875.0,850.0,800.0,750.0,700.0,650.0,600.0,550.0,500.0,450.0,400.0,350.0,300.0,275.0,250.0,225.0,200.0,175.0,150.0,100.0,50.0 (30.0,20.0,10.0) (28 to 31 levels)
+  
+MSL Mean sea level coord: 1
+
+* Pressure reduced to MSL
+
+
+total 303|327 layers

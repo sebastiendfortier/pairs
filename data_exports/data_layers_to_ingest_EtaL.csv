@@ -1,0 +1,12 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+Convective available potential energy,CAPE,Convective available potential energy,fl,J/kg,ACTIVE,15,near,1
+Dew point depression,DEPR,Dew point depression,fl,C,ACTIVE,15,near,2
+Geopotential height,HGT,Geopotential height,fl,gpm,ACTIVE,15,near,3
+Relative humidity,RH,Relative humidity,fl,%,ACTIVE,15,near,4
+Specific humidity,SPFH,Specific humidity,fl,kg/kg,ACTIVE,15,near,5
+Storm relative helicity,HLCY,Storm relative helicity,fl,J/kg,ACTIVE,15,near,6
+Temperature,TMP,Temperature,fl,C,ACTIVE,15,near,7
+Wind direction (from which blowing),WDIR,Wind direction (from which blowing),fl,deg true,ACTIVE,15,near,8
+Wind speed,WIND,Wind speed,fl,m/s,ACTIVE,15,near,9
+u-component of wind,UGRD,u-component of wind,fl,m/s,ACTIVE,15,near,10
+v-component of wind,VGRD,v-component of wind,fl,m/s,ACTIVE,15,near,11

@@ -1,0 +1,146 @@
+{
+	"layerType": "Raster", 
+	"layers": 
+    [
+        {
+            "name": "Absolute vorticity",
+            "name_alternate": "ABSV",
+            "description_short": "Absolute vorticity",
+            "datatype": "fl",
+            "units": "1/s",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Best 4 layer lifted index",
+            "name_alternate": "4LFTX",
+            "description_short": "Best (4-layer) lifted index",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Dew point depression",
+            "name_alternate": "DEPR",
+            "description_short": "Dew point depression",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Geopotential height",
+            "name_alternate": "HGT",
+            "description_short": "Geopotential height",
+            "datatype": "fl",
+            "units": "gpm",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Relative humidity",
+            "name_alternate": "RH",
+            "description_short": "Relative humidity",
+            "datatype": "fl",
+            "units": "%",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Showalter Index",
+            "name_alternate": "SHWINX",
+            "description_short": "Showalter Index",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Specific humidity",
+            "name_alternate": "SPFH",
+            "description_short": "Specific humidity",
+            "datatype": "fl",
+            "units": "kg/kg",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Temperature",
+            "name_alternate": "TMP",
+            "description_short": "Temperature",
+            "datatype": "fl",
+            "units": "C",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Thickness",
+            "name_alternate": "THICK",
+            "description_short": "Thickness",
+            "datatype": "fl",
+            "units": "m",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Vertical velocity pressure",
+            "name_alternate": "VVEL",
+            "description_short": "Vertical velocity (pressure)",
+            "datatype": "fl",
+            "units": "Pa/s",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Wind direction from which blowing",
+            "name_alternate": "WDIR",
+            "description_short": "Wind direction (from which blowing)",
+            "datatype": "fl",
+            "units": "deg true",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "Wind speed",
+            "name_alternate": "WIND",
+            "description_short": "Wind speed",
+            "datatype": "fl",
+            "units": "m/s",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "u component of wind",
+            "name_alternate": "UGRD",
+            "description_short": "u-component of wind",
+            "datatype": "fl",
+            "units": "m/s",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        },
+        {
+            "name": "v component of wind",
+            "name_alternate": "VGRD",
+            "description_short": "v-component of wind",
+            "datatype": "fl",
+            "units": "m/s",
+            "status": "ACTIVE",
+            "level": 15,
+            "interpolation": "near"
+        }
+    ]
+}

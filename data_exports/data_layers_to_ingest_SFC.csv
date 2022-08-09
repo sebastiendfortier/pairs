@@ -1,0 +1,38 @@
+name,name_alternate,description_short,datatype,units,status,level,interpolation,id
+06 hr Total precipitation,APCP06,06 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,1
+12 hr Total precipitation,APCP12,12 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,2
+18 hr Total precipitation,APCP18,18 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,3
+24 hr Total precipitation,APCP24,24 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,4
+30 hr Total precipitation,APCP30,30 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,5
+36 hr Total precipitation,APCP36,36 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,6
+42 hr Total precipitation,APCP42,42 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,7
+48 hr Total precipitation,APCP48,48 hr Total precipitation,fl,kg/(m^2),ACTIVE,15,near,8
+Albedo,ALBDO,Albedo,fl,%,ACTIVE,15,near,9
+Convective precipitation,ACPCP,Convective precipitation,fl,kg/(m^2),ACTIVE,15,near,10
+Downward long-wave radiation flux,DLWRF,Downward long-wave radiation flux,fl,W/(m^2),ACTIVE,15,near,11
+Downward short-wave radiation flux,DSWRF,Downward short-wave radiation flux,fl,W/(m^2),ACTIVE,15,near,12
+Freezing rain precipitation rate,FPRATE,Freezing rain precipitation rate,fl,kg/(m^2*s),ACTIVE,15,near,13
+Geopotential height,HGT,Geopotential height,fl,gpm,ACTIVE,15,near,14
+Ice cover,ICEC,Ice cover,fl,Proportion,ACTIVE,15,near,15
+Ice pellets precipitation rate,IPRATE,Ice pellets precipitation rate,fl,kg/(m^2*s),ACTIVE,15,near,16
+Land cover (1=land; 2=sea),LAND,Land cover (1=land; 2=sea),fl,Proportion,ACTIVE,15,near,17
+Latent heat net flux,LHTFL,Latent heat net flux,fl,W/(m^2),ACTIVE,15,near,18
+Net long wave radiation flux (surface),NLWRS,Net long wave radiation flux (surface),fl,W/(m^2),ACTIVE,15,near,19
+Net short-wave radiation flux (surface),NSWRS,Net short-wave radiation flux (surface),fl,W/(m^2),ACTIVE,15,near,20
+Planetary boundary layer height,HPBL,Planetary boundary layer height,fl,m,ACTIVE,15,near,21
+Precipitation rate,PRATE,Precipitation rate,fl,kg/(m^2 s),ACTIVE,15,near,22
+Precipitation type,PTYPE,Precipitation type,fl,1=Rain; 2=Thunderstorm; 3=Freezing Rain; 4=Mixed/ice; 5=snow; 255=missing,ACTIVE,15,near,23
+Pressure,PRES,Pressure,fl,Pa,ACTIVE,15,near,24
+Rain precipitation rate,RPRATE,Rain precipitation rate,fl,kg/(m^2*s),ACTIVE,15,near,25
+Sensible heat net flux,SHTFL,Sensible heat net flux,fl,W/(m^2),ACTIVE,15,near,26
+Skin temperature,SKINT,Skin temperature,fl,C,ACTIVE,15,near,27
+Snow density,SDEN,Snow density,fl,kg/m^3,ACTIVE,15,near,28
+Snow depth,SNOD,Snow depth,fl,m,ACTIVE,15,near,29
+Snow depth water equivalent,SDWE,Snow depth water equivalent,fl,kg/m^2,ACTIVE,15,near,30
+Snow precipitation rate,SPRATE,Snow precipitation rate,fl,kg/(m^2*s),ACTIVE,15,near,31
+Soil Volumetric Ice Content (Water Equivalent),SOILVIC,Soil Volumetric Ice Content (Water Equivalent),fl,m^3/m^3,ACTIVE,15,near,32
+Soil temperature,TSOIL,Soil temperature,fl,C,ACTIVE,15,near,33
+Specific humidity,SPFH,Specific humidity,fl,kg/kg,ACTIVE,15,near,34
+Surface Water Runoff,SFCWRO,Surface Water Runoff,fl,kg/(m^2),ACTIVE,15,near,35
+Total cloud cover,TCDC,Total cloud cover,fl,%,ACTIVE,15,near,36
+Water temperature,WTMP,Water temperature,fl,C,ACTIVE,15,near,37

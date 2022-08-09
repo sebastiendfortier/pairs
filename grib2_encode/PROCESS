@@ -1,0 +1,125 @@
+#%SG_PROCESS_001
+#***********************************************************************#
+#                                                                       #
+#      Generating process dictionary for grib encoder/decoder           #
+#                                                                       #
+#***********************************************************************#
+#
+# This dictionary is used by the grib encoder/decoder to do the translation
+# between the RPN standard file label and the GRIB process ID.
+#
+# Lines with a '#' in the first column (comment lines) and empty lines
+# are not treated
+#
+#
+# Each entry is composed of the folowing elements:
+#
+# Notes:
+#       All elements must be present and on the same line. Any thing
+#       following on the line is consider as comments
+#
+#       "--" is used as "Not considered" flag.
+#       The entries wich use the "Not considered" flags have a lower
+#       matching priority.
+#
+# Grib parameters
+#
+#   Center    : Center ID.
+#   Sub-center: Sub-center ID.
+#   Tmpl      : Product template number (code table 4.0)
+#   ProdStat  : Production status of data (code table 1.3)
+#   ProcData  : Type of data (code table 1.4)
+#   TyProcess : Type of generating Process or model ID.(code table 4.3)
+#   BgProcess : Background generating Process or model ID.
+#   Process   : Generating Process or model ID.
+#
+# WMO
+#   center    : Center id for WMO headers (4 characters).
+#
+# RPN standard file parameters
+#
+#   Label     : Label of record (maximum 12 characters).
+#
+#
+# ----------------------------------------------------------------
+#                          CMC Models
+# ----------------------------------------------------------------
+#
+# Notes:
+#       Center     ID for CMC is 54.
+#       Sub-center ID for CMC is 0.
+#       The old CMC encoder used 44 for all labels.
+
+# Center  Sub-center Tmpl ProdStat ProcData  TyProcess BgProcess Process   WMO    Label     Comments
+#                   (4.0)  (1.3)   (1.4)      (4.3)                      center /------\
+  54       0          00    0        2         2       36        36       CWAO  R1_V710_N   CMC operational RDPS system
+  54       0          00    1        2         2       36        36       CWAO  R1_V710_P   CMC parallel RDPS system
+  54       0          00    0        2         2       36        36       CWAO  R1_V800_N   CMC operational RDPS system
+  54       0          00    1        2         2       36        36       CWAO  R1_V800_P   CMC parallel RDPS system
+#
+# TM from GDPS-G6: (we disguise it as if from the RDPS)
+  54       0          00    0        2         2       36        36       CWAO  G6_3_3_0N   CMC operational GDPS system
+  54       0          00    1        2         2       36        36       CWAO  G6_3_3_0P   CMC parallel GDPS system
+#
+## Diagnostic fields: (operational)
+  54       0          00    0        2         2       36        36       CWAO  ESWEATX     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  ENERGI2     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  HELICITE    CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  ETAINDEX    CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  AJOUTLI     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  THETAW      CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  BRGOUIN     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  ADVHTT      CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  ADVHQQ      CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  QRF_INT     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  XEAUCON     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  RATIOSNW    CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  ECATDYN     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  EDYNTRP     CMC operational system
+  54       0          00    0        2         2       36        36       CWAO  EINDEXL     CMC SPOOKI system
+#
+  54       0          00    0        2         2       36        36       CWAO  R1DIAGWT1   CMC WT1 computed by d.omega2w (task: DND_extra)
+  54       0          00    0        2         2       36        36       CWAO  R1LC50P_N   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1ML50P_N   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LCONDLN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LI50P_N   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LI300PN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LC300PN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1MU300PN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1SWEATIN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1TOTALIN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1GEORKIN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1FRZLVLN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1PCPTBGN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1WNDCHLN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1DUB222N   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LIFTDIN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1LI300PN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1WBPOTTN   CMC SPOOKI system
+  54       0          00    0        2         2       36        36       CWAO  R1CNVEGYN   CMC SPOOKI system
+#
+## Diagnostic fields: (parallel)
+  54       0          00    1        2         2       36        36       CWAO  R1LC50P_P   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1ML50P_P   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LCONDLP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LI50P_P   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LI300PP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LC300PP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1MU300PP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1SWEATIP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1TOTALIP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1GEORKIP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1FRZLVLP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1PCPTBGP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1WNDCHLP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1DUB222P   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LIFTDIP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1LI300PP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1WBPOTTP   CMC SPOOKI system
+  54       0          00    1        2         2       36        36       CWAO  R1CNVEGYP   CMC SPOOKI system
+#
+# Default Process (or Etiket or Etiket is not listed in this file)
+# Center  Sub-center Tmpl  ProdStat ProcData TyProcess BgProcess Process   WMO    Label     Comments
+#                    (4.0) (1.3)    (1.4)     (4.3)                      center /------\
+  54       0          01    0        4         4       45        45       CWAO  - ------    CMC system unidentified GPN
+#
